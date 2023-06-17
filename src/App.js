@@ -8,7 +8,6 @@ import Cart from './components/Cart';
 function App() {
 
   const [cartItems, setCartItems] = useState([]);
-
   const addToCart = (product) => {
     setCartItems((prevCartItems) => [...prevCartItems, product]);
   };
