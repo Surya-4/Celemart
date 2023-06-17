@@ -7,8 +7,8 @@ function Header() {
       <Link to="/Celemart" style={{color:'red', fontSize:'28px'}}><b>CeleMart</b></Link>
       <nav>
       <Link to="/cart">Cart</Link>
-      <Link to="/">Login</Link>
-      <Link to="/">Register</Link>
+      <Link to="/Celemart">Login</Link>
+      <Link to="/Celemart">Register</Link>
       </nav>
     </div>
   )
