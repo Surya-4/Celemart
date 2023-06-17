@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Celemart/static/css/main.4958b21d.css",
-    "main.js": "/Celemart/static/js/main.a89c455f.js",
+    "main.js": "/Celemart/static/js/main.12668ea3.js",
     "static/js/787.d0acb16e.chunk.js": "/Celemart/static/js/787.d0acb16e.chunk.js",
     "index.html": "/Celemart/index.html",
     "main.4958b21d.css.map": "/Celemart/static/css/main.4958b21d.css.map",
-    "main.a89c455f.js.map": "/Celemart/static/js/main.a89c455f.js.map",
+    "main.12668ea3.js.map": "/Celemart/static/js/main.12668ea3.js.map",
     "787.d0acb16e.chunk.js.map": "/Celemart/static/js/787.d0acb16e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4958b21d.css",
-    "static/js/main.a89c455f.js"
+    "static/js/main.12668ea3.js"
   ]
 }
