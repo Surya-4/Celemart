@@ -16,7 +16,7 @@ function App() {
   return (
     <>
     <BrowserRouter basename='/Celemart'>
-    <HashRouter>
+    {/* <HashRouter> */}
     <Routes>
       <Route exact path='/' element={
         <>
@@ -31,7 +31,7 @@ function App() {
         </>
       }></Route>
     </Routes>
-    </HashRouter>
+    {/* </HashRouter> */}
     </BrowserRouter>
     </>
   );
