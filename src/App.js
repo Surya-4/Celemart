@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import Allproducts from './components/Allproducts';
-import { BrowserRouter,Link,Route,Routes } from 'react-router-dom';
+import { BrowserRouter,HashRouter,Link,Route,Routes } from 'react-router-dom';
 import { useState } from 'react';
 import Cart from './components/Cart';
 
@@ -15,7 +15,8 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename='/Celemart'>
+    <HashRouter>
     <Routes>
       <Route exact path='/' element={
         <>
@@ -23,13 +24,14 @@ function App() {
         <Allproducts addToCart={addToCart}/>
         </>
       }></Route>
-      <Route exact path='/cart' element={
+      <Route path='/cart' element={
         <>
         <Header/>
         <Cart cartItems={cartItems}/>
         </>
       }></Route>
     </Routes>
+    </HashRouter>
     </BrowserRouter>
     </>
   );
